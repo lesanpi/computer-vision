@@ -6,7 +6,7 @@ import sys
 import os
 import random
 sys.path.append("./training")
-from RNN import Classifier
+from training.RNN import Classifier
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
